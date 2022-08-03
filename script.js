@@ -24,3 +24,9 @@ const jugador11 = new Jugador("Luis", "Vazquez", "23", "delantero", 50000)
 const jugadores = [jugador1, jugador2, jugador3, jugador4, jugador5, jugador6, jugador7, jugador8, jugador9, jugador10, jugador11]
 
 console.table(jugadores)
+
+const jugador = new Jugador(prompt("ingrese el nombre"), prompt("ingrese el apellido"), prompt("ingrese la edad"), prompt("ingrese la posicion"), prompt("ingrese el sueldo"))
+
+jugadores.push(jugador)
+
+console.table(jugadores)
